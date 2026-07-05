@@ -16,6 +16,8 @@
 
 # REST APIs and JSON
 
-## 1. A REST API is a form of API that allows for two different softwares to communicate and exchange data over the internet.
+## 1. The difference between GET and POST is that a GET is a read request, whereas a POST is a write request.
 
 ## 2. The HTTP methods indicate the specific action to be performed on a given resource when a client communicates with a server. They form the backbone of web communication and RESTful APIs, mapping directly to standard data management operations.
+
+## 3. 
