@@ -28,4 +28,4 @@
 
 ## 2. A .env file is a local text config file which stores environment variables and sensitive data such as API keys which should not be committed to GitHub.
 
-## 3. At execution, my code looks for an .env file, and parses it one line at a time, separating the keys from the values.
+## 3. At execution, an env parser library looks for an .env file, and parses it one line at a time, separating the keys from the values as process.env.KEY_NAME.
