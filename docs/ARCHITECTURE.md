@@ -21,3 +21,7 @@
 ## 2. The HTTP methods indicate the specific action to be performed on a given resource when a client communicates with a server. They form the backbone of web communication and RESTful APIs, mapping directly to standard data management operations.
 
 ## 3. When you make an API call, you send an HTTP request to the server.
+
+# ENVs and Setup
+
+## 1.
