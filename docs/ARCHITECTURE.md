@@ -24,4 +24,8 @@
 
 # ENVs and Setup
 
-## 1.
+## 1. Storing API Keys in your code means they are open to the public, and as such can be taken and used maliciously to anyone who can see the repository or the code.
+
+## 2. A .env file is a local text config file which stores environment variables and sensitive data such as API keys which should not be committed to GitHub.
+
+## 3. At execution, my code looks for an .env file, and parses it one line at a time, separating the keys from the values.
