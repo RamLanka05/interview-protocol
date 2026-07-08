@@ -13,6 +13,17 @@ Interview Protocol orchestrates three core data streams:
 
 ## Architecture
 
+### Data Flow
+```mermaid
+graph TD
+    A[LeetCode Page] -->|Extension| B[Notion LeetCode Tracker]
+    C[Gmail Inbox] -->|Backend API| D[Claude Parser]
+    D -->|Updates| E[Notion Interview Pipeline]
+    B -->|Analyzes| F[Weak Patterns]
+    E -->|Feeds| G[Claude Analyzer]
+    G -->|Generates| H[Daily Practice]
+```
+
 ### Core Components
 
 - **Browser Extension** — Syncs LeetCode submissions to Notion (one-click)
