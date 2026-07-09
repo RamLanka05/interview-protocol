@@ -56,11 +56,11 @@ graph TD
 
 ## Learning Path
 
-**Week 1:** Foundations (OAuth, REST APIs, environment variables, Notion setup)
-**Week 2:** Browser extension (LeetCode → Notion sync)
-**Week 3:** Gmail integration (recruiter email → Notion)
-**Week 4:** Claude analyzer (pattern detection + recommendations)
-**Week 5+:** Polish, deploy, portfolio documentation
+- **Week 1:** Foundations (OAuth, REST APIs, environment variables, Notion setup)
+- **Week 2:** Browser extension (LeetCode → Notion sync)
+- **Week 3:** Gmail integration (recruiter email → Notion)
+- **Week 4:** Claude analyzer (pattern detection + recommendations)
+- **Week 5+:** Polish, deploy, portfolio documentation
 
 ## Setup
 
